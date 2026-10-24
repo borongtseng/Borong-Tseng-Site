@@ -176,6 +176,21 @@ a {
   margin-top: 20px; */
 }
 
+.section__title-set {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.section__title-bar {
+  margin: 0 0 1.2rem;
+  width: 100%;
+  height: 15px;
+  color: #ffffff00;
+  background: linear-gradient(90deg,#edfeff, #68ff71, #0076eb);
+}
+
 .section__title {
   margin: 0 0 2.5rem;
   font-weight: 500;
@@ -188,14 +203,13 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(to right, #f7f7f7 85%, #fff 15%);
+  background: linear-gradient(to right, #f7f7f7 90%, #fff 10%);
   box-shadow: 0px 0px 20px black;
   gap: 40px;
   width: 80vw;
   height: 50vh;
-  padding: 30px 50px;
+  padding: 30px 20px 30px 50px;
   border-radius: 0 15px 15px 0;
-  /* border-right: solid 10vw rgb(255, 255, 255); */
   gap: 10px;
 }
 
@@ -268,7 +282,8 @@ a {
 .barcode {
   display: flex;
   align-items: flex-start;
-  height: 40vh;
+  height: 350px;
+  width: 70%;
 }
 
 /* ---------- ABOUT ---------- */
@@ -322,6 +337,11 @@ a {
 .work-card {
   display: block;
   text-decoration: none;
+  transition: .3s;
+}
+
+.work-card:hover {
+  transform: scale(1.05);
 }
 
 .work-card__head {
@@ -352,7 +372,7 @@ a {
   color: var(--muted)
 }
 
-.work-card__hint {
+/* .work-card__hint {
   color: var(--muted);
   font-size: 1.15rem;
   line-height: 1.3;
@@ -370,7 +390,7 @@ a {
   .work-card__hint {
     opacity: 1;
   }
-}
+} */
 
 /* 觸控裝置沒有 hover，所以常駐顯示 */
 
@@ -478,6 +498,13 @@ a {
   width: 100%;
   height: auto;
   display: block;
+  /* border-radius: 10px; */
+  /* box-shadow: 0px 0px 10px black; */
+  transition: transform 0.3s;
+}
+
+.work-gallery__img:hover {
+  transform: scale(1.05);
 }
 
 /* 想讓所有圖片裁成同樣大小的格子，就把上面那行換成：
@@ -522,9 +549,9 @@ a {
 }
 
 /* ---------- 圖片放大檢視（Lightbox） ---------- */
-.zoomable {
+/* .zoomable {
   cursor: zoom-in;
-}
+} */
 
 .lightbox {
   position: fixed;
@@ -588,15 +615,16 @@ a {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 48px;
-  height: 48px;
+  width: 30px;
+  height: 30px;
   border: 0;
-  border-radius: 50%;
+  border-radius: 20%;
   background: rgba(255, 255, 255, 0.12);
   color: #fff;
-  font-size: 2.2rem;
+  font-size: 1.2rem;
   line-height: 1;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .lightbox__nav:hover {
@@ -674,8 +702,10 @@ a {
   }
 
   .barcode {
-    height: 260px;
-    width: auto;
+    height: 340px;
+    width: 50%;
+    margin-left: 30px;
+    /* width: auto; */
   }
 }
 
@@ -755,7 +785,7 @@ a {
   }
 
   .home__info {
-    padding-right: -20px;
+    margin-right: -0px;
     gap: 20px;
   }
 
@@ -767,7 +797,9 @@ a {
   .barcode {
     display: flex;
     align-items: start;
-    height: 200px;
+    height: 280px;
+    width: 50%;
+    margin-left: 20px;
   }
 
   /* 其他區塊：單欄 */

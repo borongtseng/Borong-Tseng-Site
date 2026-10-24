@@ -6,7 +6,10 @@ import FileList from '../components/FileList.jsx'
 export default function AboutSection() {
   return (
     <section id="about" className="section section--about">
-      <h2 className="section__title">ABOUT</h2>
+      <div className="section__title-set">
+        <h2 className="section__title">ABOUT</h2>
+        <div className="section__title-bar">bar</div>
+      </div>
 
       <div className="about-intro">
         <SafeImage src={profile.avatar} alt={profile.name} className="about-intro__avatar" />

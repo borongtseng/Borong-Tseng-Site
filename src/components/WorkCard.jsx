@@ -16,7 +16,6 @@ export default function WorkCard({ work, type }) {
       <div className="work-card__head">
         <div>
           <h3 className="work-card__title">{work.title}</h3>
-          <span className="work-card__hint">Press</span>
         </div>
         <p className="work-card__date">{work.date} / {work.location}</p>
       </div>

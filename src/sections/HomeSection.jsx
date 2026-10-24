@@ -12,17 +12,23 @@ export default function HomeSection() {
           <p className="home__school">{profile.school}</p>
           <p className="home__title">{profile.title}</p>
         </div>
+        
 
         <div className="home__info">
+          <div className="section__title-bar">bar</div>
+
           <div className="home__info__line">
             <img src="/images/envelope.svg" alt="mail" />
             <p>{profile.email_nycu}</p>
           </div>
+
           <p>{profile.email}</p>
+
           <div className="home__info__line">
             <img src="/images/marker.svg" alt="marker" />
             <p>{profile.location}</p>
           </div>
+          
         </div>
         <div className="home__barcode">
           <img src="/images/barcode.png" alt="barcode" className='barcode' />

@@ -60,7 +60,7 @@ export default function Lightbox({ images, index, onChange, onClose }) {
       <button type="button" className="lightbox__close" aria-label="關閉" onClick={stop(onClose)}>×</button>
 
       {count > 1 && (
-        <button type="button" className="lightbox__nav lightbox__nav--prev" aria-label="上一張" onClick={stop(prev)}>‹</button>
+        <button type="button" className="lightbox__nav lightbox__nav--prev" aria-label="上一張" onClick={stop(prev)}>❮</button>
       )}
 
       <figure className="lightbox__figure" onClick={(e) => e.stopPropagation()}>
@@ -72,7 +72,7 @@ export default function Lightbox({ images, index, onChange, onClose }) {
       </figure>
 
       {count > 1 && (
-        <button type="button" className="lightbox__nav lightbox__nav--next" aria-label="下一張" onClick={stop(next)}>›</button>
+        <button type="button" className="lightbox__nav lightbox__nav--next" aria-label="下一張" onClick={stop(next)}>❯</button>
       )}
     </div>
   )
