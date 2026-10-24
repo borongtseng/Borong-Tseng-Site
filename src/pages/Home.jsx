@@ -1,4 +1,5 @@
 import HomeSection from '../sections/HomeSection.jsx'
+import ColourSection from '../sections/ColourSection.jsx'
 import AboutSection from '../sections/AboutSection.jsx'
 import WorkSection from '../sections/WorkSection.jsx'
 import ContactSection from '../sections/ContactSection.jsx'
@@ -11,6 +12,7 @@ export default function Home() {
   return (
     <>
       <HomeSection />
+      <ColourSection />
       <AboutSection />
       <WorkSection id="design" title="DESIGN" type="design" works={designWorks} />
       <WorkSection id="photo" title="PHOTO" type="photo" works={photoWorks} />

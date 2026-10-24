@@ -165,7 +165,7 @@ a {
 }
 
 .section--home {
-  min-height: calc(90vh - var(--nav-h));
+  min-height: calc(75vh - var(--nav-h));
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -188,7 +188,7 @@ a {
   width: 100%;
   height: 15px;
   color: #ffffff00;
-  background: linear-gradient(90deg,#edfeff, #68ff71, #0076eb);
+  background: linear-gradient(90deg,#edfeff 15%, #68ff71 50%, #0076eb 100%);
 }
 
 .section__title {
@@ -219,7 +219,7 @@ a {
   font-size: clamp(2.5rem, 4vw, 6rem);
   margin-bottom: -15px;
   margin: 0px 0 -5px -5px;
-  background-image: linear-gradient(120deg, #68ff71, #0076eb);
+  background-image: linear-gradient(90deg, #68ff71 5%, #0076eb 100%);
   color: transparent;
   background-clip: text;
 }
@@ -285,6 +285,31 @@ a {
   height: 350px;
   width: 70%;
 }
+
+/* ---------- COLOUR ---------- */
+
+#colour { display: flex; flex-direction: column; gap:25px; }
+
+.colours {
+  display: flex;
+  margin-top: 20px;
+}
+
+.colour__block {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  height: 150px;
+  padding: 20px;
+}
+
+#w { width: 25%; background-color: #edfeff; color: #000; transition: 1s;}
+#g { width: 25%; background-color: #68ff71; color: #000; transition: 1s;}
+#b { width: 50%; background-color: #0076eb; color: #edfeff; transition: 1s;}
+
+#w:hover { width: 100%; }
+#g:hover { width: 100%; }
+#b:hover { width: 100%; }
 
 /* ---------- ABOUT ---------- */
 .about-intro {
