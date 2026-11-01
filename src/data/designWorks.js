@@ -13,7 +13,7 @@ export const designWorks = [
     files: [{ label: '下載作品 PDF', src: '/files/design-1.pdf' }],
   },
   { id: 'design-2', title: '清大蘭友會返鄉服務營隊', date: '2026 09 12', category: '平面設計', tags: [], description: [], images: [img, img, img], files: [] },
-  { id: 'design-3', title: '宜蘭高中科實班旗幟', date: '2026 09 12', category: '平面設計', tags: [], description: [], images: [img, img, img], files: [] },
+  { id: 'design-3', title: '宜蘭高中科實班識別旗幟', date: '2026 09 12', category: '平面設計', tags: [], description: [], images: [img, img, img], files: [] },
   { id: 'design-4', title: '宜蘭高中科實班成果發表會', date: '2026 09 12', category: '平面設計', tags: [], description: [], images: [img, img, img], files: [] },
   { id: 'design-5', title: '宜蘭高中科實班科學營', date: '2026 09 12', category: '平面設計', tags: [], description: [], images: [img, img, img], files: [] },
 ]

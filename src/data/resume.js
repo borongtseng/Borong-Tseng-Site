@@ -12,6 +12,7 @@ export const experience = [
   { id: 'exp-4', act: 'NTHU 國立清華大學 宜蘭校友會 返鄉服務營隊', pos: '活動攝影', time: '2026.01.28-30', description: '' },
   { id: 'exp-5', act: 'NTHU 國立清華大學《竹風清宴 — 畢業辦桌》', pos: '活動攝影', time: '2026.05.23', description: '' },
   { id: 'exp-6', act: 'NYCU 國立陽明交通大學 健康中心心理諮商輔導組 交心志工團', pos: '宣傳組組長', time: '2026.09', description: '' },
+  { id: 'exp-7', act: 'NYCU 國立陽明交通大學 運輸與物流管理學系 系學會', pos: '行銷組', time: '2026.10-', description: '' },
 
 ]
 

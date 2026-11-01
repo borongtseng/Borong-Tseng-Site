@@ -35,6 +35,16 @@ const img3 = [
   { src: '/images/20260802 大同三星壯圍/colored/IMG_1513.JPG', caption: '' },
   { src: '/images/20260802 大同三星壯圍/colored/IMG_1516.jpg', caption: '' },
 ]
+const img4 =[
+  { src: '/images/20260913 學校+新竹公園/IMG_2961.JPG', caption: '' },
+  { src: '/images/20260913 學校+新竹公園/IMG_2966.JPG', caption: '' },
+  { src: '/images/20260913 學校+新竹公園/IMG_2968.JPG', caption: '' },
+  { src: '/images/20260913 學校+新竹公園/IMG_2929.JPG', caption: '' },
+  { src: '/images/20260913 學校+新竹公園/IMG_2972.JPG', caption: '' },
+  { src: '/images/20260913 學校+新竹公園/IMG_2969.JPG', caption: '' },
+  { src: '/images/20260913 學校+新竹公園/IMG_2957.JPG', caption: '' },
+  { src: '/images/20260913 學校+新竹公園/IMG_2963.JPG', caption: '' },
+]
 
 export const photoWorks = [
   {
@@ -62,6 +72,15 @@ export const photoWorks = [
     location: '宜蘭縣三星鄉、大同鄉',
     description: [''],
     images: [img3[0], img3[1], img3[2], img3[3], img3[4], img3[5],],
+    files: []
+  },
+  {
+    id: 'Hsin chu Park',
+    title: '新竹公園',
+    date: '2026.09.13',
+    location: '新竹市東區',
+    description: [''],
+    images: [img4[0], img4[1], img4[2], img4[3], img4[4], img4[5], img4[6], img4[7]],
     files: []
   },
 ]

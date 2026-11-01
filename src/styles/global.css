@@ -300,7 +300,12 @@ a {
   align-items: end;
   justify-content: end;
   height: 150px;
-  padding: 20px;
+  padding: 40px 0px;
+}
+
+.colour__block > p {
+  font-size: 1rem;
+  transform: rotate(-90deg);
 }
 
 #w { width: 25%; background-color: #edfeff; color: #000; transition: 1s;}
@@ -322,6 +327,7 @@ a {
 .about-intro__avatar {
   width: 200px;
   flex-shrink: 0;
+  box-shadow: 0 0 15px black;
 }
 
 .resume {
